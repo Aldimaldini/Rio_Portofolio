@@ -15,8 +15,8 @@ require 'koneksi.php';
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -24,14 +24,14 @@ require 'koneksi.php';
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="vendor/aos/aos.css" rel="stylesheet">
+  <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
 </head>
 
 <body class="index-page">
@@ -40,12 +40,12 @@ require 'koneksi.php';
     <i class="header-toggle d-xl-none bi bi-list"></i>
 
     <div class="profile-img">
-      <img src="assets/img/pp.jpg" alt="" class="img-fluid rounded-circle">
+      <img src="img/pp.jpg" alt="" class="img-fluid rounded-circle">
     </div>
 
     <a href="index.html" class="logo d-flex align-items-center justify-content-center">
       <!-- Uncomment the line below if you also wish to use an image logo -->
-      <!-- <img src="assets/img/logo.png" alt=""> -->
+      <!-- <img src="img/logo.png" alt=""> -->
       <h1 class="sitename">Rio Febrian</h1>
     </a>
     <i class=" text-center"> Programmer</i>
@@ -69,7 +69,7 @@ require 'koneksi.php';
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
 
-      <img src="assets/img/bg1.jpg" alt="" data-aos="fade-in" class="">
+      <img src="img/bg1.jpg" alt="" data-aos="fade-in" class="">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <h2></h2>
@@ -92,7 +92,7 @@ require 'koneksi.php';
 
         <div class="row gy-4 justify-content-center">
           <div class="col-lg-4">
-            <img src="assets/img/pp.jpg" class="img-fluid" alt="">
+            <img src="img/pp.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 content">
             <h2>Front End Developer</h2>
@@ -319,77 +319,77 @@ require 'koneksi.php';
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/comprof.png" class="img-fluid" alt="">
+                <img src="img/portfolio/comprof.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>App 1</h4>
                   <p>Company Profile</p>
-                  <a href="assets/img/portfolio/comprof.png" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="img/portfolio/comprof.png" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/monev.png" class="img-fluid" alt="">
+                <img src="img/portfolio/monev.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>App 2</h4>
                   <p>Monitoring dan evaluasi (Monev)</p>
-                  <a href="assets/img/portfolio/monev.png" title="App 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="img/portfolio/monev.png" title="App 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/absen.png" class="img-fluid" alt="">
+                <img src="img/portfolio/absen.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>App 3</h4>
                   <p>Absen</p>
-                  <a href="assets/img/portfolio/absen.png" title="App 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="img/portfolio/absen.png" title="App 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/laporankerja.png" class="img-fluid" alt="">
+                <img src="img/portfolio/laporankerja.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>App 4</h4>
                   <p>Rekap Laporan kerja</p>
-                  <a href="assets/img/portfolio/laporankerja.png" title="App 4" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="img/portfolio/laporankerja.png" title="App 4" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/pinhome.png" class="img-fluid" alt="">
+                <img src="img/portfolio/pinhome.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>App 5</h4>
                   <p>Daftar kerja pinhome</p>
-                  <a href="assets/img/portfolio/pinhome.png" title="App 5" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="img/portfolio/pinhome.png" title="App 5" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/inventory.png" class="img-fluid" alt="">
+                <img src="img/portfolio/inventory.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>App 6</h4>
                   <p>inventory barang</p>
-                  <a href="assets/img/portfolio/inventory.png" title="App 6" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="img/portfolio/inventory.png" title="App 6" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/brief.png" class="img-fluid" alt="">
+                <img src="img/portfolio/brief.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>App 7</h4>
                   <p>Briefing</p>
-                  <a href="assets/img/portfolio/brief.png" title="App 7" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="img/portfolio/brief.png" title="App 7" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div>
@@ -398,22 +398,22 @@ require 'koneksi.php';
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-sertif">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/sertif 1.jpg" class="img-fluid" alt="">
+                <img src="img/portfolio/sertif 1.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Sertfikat</h4>
                   <p>Gambar</p>
-                  <a href="assets/img/portfolio/sertif 1.jpg" title="" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="img/portfolio/sertif 1.jpg" title="" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-sertif">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/sertif 2.jpg" class="img-fluid" alt="">
+                <img src="img/portfolio/sertif 2.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Sertfikat</h4>
                   <p>Gambar</p>
-                  <a href="assets/img/portfolio/sertif 2.jpg" title="" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="img/portfolio/sertif 2.jpg" title="" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div>
@@ -524,19 +524,19 @@ require 'koneksi.php';
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/php-email-form/validate.js"></script>
+  <script src="vendor/aos/aos.js"></script>
+  <script src="vendor/typed.js/typed.umd.js"></script>
+  <script src="vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="vendor/swiper/swiper-bundle.min.js"></script>
 
   <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="js/main.js"></script>
 
 </body>
 
